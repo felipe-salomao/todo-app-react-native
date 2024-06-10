@@ -17,13 +17,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": false
+      "supportsTablet": false,
+      "bundleIdentifier": "com.felipe.salomao.todoappreactnative"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.felipe.salomao.todoappreactnative"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45a35950-f33a-43cc-9b31-ec637ea85291"
       }
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }

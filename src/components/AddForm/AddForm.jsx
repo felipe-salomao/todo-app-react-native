@@ -4,6 +4,7 @@ import {
   TextInput,
   Pressable,
   Platform,
+  Keyboard,
 } from 'react-native';
 import { styles } from './AddFormStyles';
 import AddIcon from '../../assets/addIcon.svg';
@@ -15,6 +16,7 @@ const AddForm = (props) => {
     if (currentValue !== '') {
       props.addTodo(currentValue);
       setCurrentValue('');
+      Keyboard.dismiss();
     }
   };
 
@@ -27,8 +29,9 @@ const AddForm = (props) => {
         style={styles.inputField}
         value={currentValue}
         onChangeText={setCurrentValue}
-        placeholder="Add you task..."
+        placeholder="Adicione sua tarefa..."
         onSubmitEditing={submitForm}
+        maxLength={50}
       />
       <Pressable style={styles.addButton} onPress={submitForm}>
         <AddIcon height={18} />

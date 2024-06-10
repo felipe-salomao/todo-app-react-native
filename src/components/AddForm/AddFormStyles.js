@@ -3,10 +3,10 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   addFormContainer: {
     flexDirection: 'row',
-    marginTop: 'auto',
-    marginBottom: 30,
+    marginTop: 15,
+    marginBottom: 20,
     paddingHorizontal: 20,
-    backgroundColor: '#f7f8fa',
+    alignItems: 'center',
   },
   inputField: {
     flex: 1,
@@ -21,8 +21,8 @@ export const styles = StyleSheet.create({
   addButton: {
     justifyContent: 'center',
     alignItems: 'center',
-    width: 42,
-    height: 42,
+    width: 32,
+    height: 32,
     borderRadius: 21,
     backgroundColor: '#000000',
     shadowColor: '#000000',

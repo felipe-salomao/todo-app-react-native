@@ -6,8 +6,8 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     paddingTop: 10,
     paddingBottom: 15,
-    paddingHorizontal: 15,
-    backgroundColor: '#f7f8fa',
+    paddingHorizontal: 25,
+    backgroundColor: '#ffffff',
   },
   itemCheckbox: {
     justifyContent: 'center',
@@ -28,10 +28,11 @@ export const styles = StyleSheet.create({
   },
   itemText: {
     marginRight: 'auto',
-    paddingRight: 25,
+    paddingRight: 60,
     fontSize: 15,
     lineHeight: 20,
     color: '#737373',
+    lineWidth: 1,
   },
   itemTextChecked: {
     opacity: 0.3,

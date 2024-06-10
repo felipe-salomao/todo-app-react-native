@@ -14,7 +14,7 @@ const App = (props) => {
       <StatusBar style="auto" />
       <Text style={styles.pageTitle}>Do To Forever</Text>
       <View style={styles.listView}>
-        <Text style={styles.listTitle}>Task</Text>
+        <Text style={styles.listTitle}>Tarefas</Text>
         {todoTasks.length !== 0 ? (
           <FlatList
             data={todoTasks}
@@ -22,12 +22,12 @@ const App = (props) => {
             keyExtractor={(item) => item.id}
           />
         ) : (
-          <Text style={styles.emptyListText}>No tasks</Text>
+          <Text style={styles.emptyListText}>Sem Tarefas</Text>
         )}
       </View>
       <View style={styles.separator} />
       <View style={styles.listView}>
-        <Text style={styles.listTitle}>Completed</Text>
+        <Text style={styles.listTitle}>Completas</Text>
         {completedTasks.length !== 0 ? (
           <FlatList
             data={completedTasks}
@@ -35,7 +35,7 @@ const App = (props) => {
             keyExtractor={(item) => item.id}
           />
         ) : (
-          <Text style={styles.emptyListText}>No completed tasks</Text>
+          <Text style={styles.emptyListText}>Sem tarefas completas</Text>
         )}
       </View>
       <AddForm />
