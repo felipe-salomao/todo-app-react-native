@@ -9,13 +9,13 @@ npm install
 ## Telas do projeto
 
 ### Tela inicial
-![Tela inicial](assets/screenshot-1.png)
+<img src="assets/screenshot-1.png" alt="Tela inicial" width="200" height="400">
 
 ### Adicionar tarefa
-![Adicionar tarefa](assets/screenshot-2.png)
+<img src="assets/screenshot-2.png" alt="Adicionar tarefa" width="200" height="400">
 
 ### Tela com tarefas
-![Tela com tarefas](assets/screenshot-3.png)
+<img src="assets/screenshot-3.png" alt="Tela com tarefas" width="200" height="400">
 
 ## Link para download do APK no celular
 
