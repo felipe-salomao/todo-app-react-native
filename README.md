@@ -8,7 +8,7 @@ npm install
 ```
 ## Telas do projeto
 
-<img src="assets/screenshot-1.png" alt="Tela inicial" width="200" height="400">, <img src="assets/screenshot-2.png" alt="Adicionar tarefa" width="200" height="400">, <img src="assets/screenshot-3.png" alt="Tela com tarefas" width="200" height="400">
+<img src="assets/screenshot-1.png" alt="Tela inicial" width="200" height="400"> <img src="assets/screenshot-2.png" alt="Adicionar tarefa" width="200" height="400"> <img src="assets/screenshot-3.png" alt="Tela com tarefas" width="200" height="400">
 
 ## Link para download do APK no celular
 
